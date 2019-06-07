@@ -1,10 +1,11 @@
-.signup-btn(@color, @width){
+.signup-btn(@border, @width, @bottomspace){
     color: #ffffff;
-    background-color: @color;
+    background-color: @header-font-color;
     width: @width;
     height: 14%;
     padding-top: 3%;
-    border-radius: 10px;
+    padding-bottom: @bottomspace;
+    border-radius: @border;
     text-align: center;
     font-size: 18px;
 }
