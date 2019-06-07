@@ -1,1 +1,28 @@
-// Navigation code here
+@padding: 15px;
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    h1{
+        font-size: 36px;
+        margin-left: 40%;
+        padding-top: @padding;
+        padding-bottom: 1.25 * @padding;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 37.5%;
+        width: 25%;
+        padding-bottom: @padding;
+    }
+
+    nav a{
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
